@@ -4,8 +4,8 @@
     "name": "dontbesilent2025"
   },
   "metadata": {
-    "description": "dontbesilent 商业诊断工具箱 — 从 12,307 条推文中提炼方法论，做成 10 个 Claude Code skill",
-    "version": "2.4.0"
+    "description": "dontbesilent 商业诊断工具箱 — 从 12,307 条推文中提炼方法论，做成 11 个 Claude Code skill",
+    "version": "2.5.0"
   },
   "plugins": [
     {
@@ -107,6 +107,16 @@
       "category": "content-creation",
       "keywords": ["ai-detection", "writing", "fingerprint", "content-quality", "chinese"],
       "skills": ["./skills/dbs-ai-check"]
+    },
+    {
+      "name": "dbs-slowisfast",
+      "description": "dontbesilent 慢就是快。帮创业者找到看起来更慢但长期更快的方法，用摩擦建造资产。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "business-diagnostics",
+      "keywords": ["slow-is-fast", "friction", "asset-building", "compounding", "chinese"],
+      "skills": ["./skills/dbs-slowisfast"]
     },
     {
       "name": "dbskill-upgrade",
