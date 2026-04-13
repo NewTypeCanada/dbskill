@@ -4,8 +4,8 @@
     "name": "dontbesilent2025"
   },
   "metadata": {
-    "description": "dontbesilent 商业诊断工具箱 — 从 12,307 条推文中提炼方法论，做成 11 个 Claude Code skill",
-    "version": "2.5.0"
+    "description": "dontbesilent 商业诊断工具箱 — 从 12,307 条推文中提炼方法论，做成 13 个 Claude Code skill",
+    "version": "2.6.0"
   },
   "plugins": [
     {
@@ -89,14 +89,24 @@
       "skills": ["./skills/dbs-deconstruct"]
     },
     {
-      "name": "chatroom-austrian",
+      "name": "dbs-chatroom-austrian",
       "description": "哈耶克 × 米塞斯 × Claude 三人对话。奥派经济学视角的多角色讨论。",
       "source": "./",
       "strict": false,
       "version": "1.0.0",
       "category": "thinking-tools",
       "keywords": ["austrian-economics", "hayek", "mises", "debate", "philosophy", "chinese"],
-      "skills": ["./skills/chatroom-austrian"]
+      "skills": ["./skills/dbs-chatroom-austrian"]
+    },
+    {
+      "name": "dbs-chatroom",
+      "description": "定向聊天室。根据话题推荐或接受用户指定的专家，模拟多角色对话 + 判官总结。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "category": "thinking-tools",
+      "keywords": ["chatroom", "multi-expert", "debate", "recommendation", "chinese"],
+      "skills": ["./skills/dbs-chatroom"]
     },
     {
       "name": "dbs-ai-check",
